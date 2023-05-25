@@ -35,7 +35,7 @@ const Testimonial = () => {
     return (
         <section className="testimonials">
             <div className="container testimonials_container">
-                <SectionHead icon={<ImQuotesLeft />} title="Testimoials" className="testimonials_head" />
+                <SectionHead icon={<ImQuotesLeft />} title="Testimonials" className="testimonials_head" />
                 <Card className="testimonial">
                     <div className="testimonial_avatar">
                         <img src={avatar} alt={name} />

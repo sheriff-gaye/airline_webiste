@@ -39,29 +39,29 @@ export const programs = [
     {
         id: 1,
         icon: <SiOpenaigym />,
-        title: "Program One",
-        info: "This is the day that the lord has made. We will rejoice!",
+        title: "Cardio Blast",
+        info: "Intense cardio workouts to boost endurance and torch calories.",
         path: "/programs/111"
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        title: "Program Two",
-        info: "This is the day that the lord has made. We will rejoice!",
+        title: "Strength Fusion",
+        info: "A dynamic blend of strength training exercises for muscle sculpting",
         path: "/programs/222"
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        title: "Program Three",
-        info: "This is the day that the lord has made. We will rejoice!",
+        title: "Yoga Flow",
+        info: "Find balance, flexibility, and inner peace through mindful yoga practice",
         path: "/programs/333"
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        title: "Program Four",
-        info: "This is the day that the lord has made. We will rejoice!",
+        title: "HIIT Ignite",
+        info: "High-intensity interval training to maximize fat burn and overall fitness",
         path: "/programs/444"
     }
 ]
@@ -77,26 +77,26 @@ export const values = [
     {
         id: 1,
         icon: <SiOpenaigym />,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Fun Energize",
+        desc: "Infusing energy and enjoyment into workouts to make fitness a fun and fulfilling experience."
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Balance Wellness",
+        desc: "Promoting a holistic approach to fitness that encompasses physical, mental, and emotional well-being."
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Integrity Trust",
+        desc: "Building trust through honest and transparent practices and maintaining the highest level of integrity."
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
+        title: "Passion Drive",
+        desc: "Fueling dedication and enthusiasm for fitness and personal growth."
     }
 ]
 
@@ -112,32 +112,32 @@ export const faqs = [
     {
         id: 1,
         question: "How often should I exercise?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+        answer: "It is recommended to engage in moderate-intensity aerobic activity for at least 150 minutes per week, or vigorous-intensity activity for 75 minutes per week, along with muscle-strengthening exercises twice a week."
     },
     {
         id: 2,
         question: "What time of day is best to work out?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+        answer: "The best time of day to work out depends on individual preferences and schedules. Choose a time that aligns with your energy levels and allows for consistency."
     },
     {
         id: 3,
         question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        answer: "The duration of your workouts depends on your fitness goals and individual preferences, but a general guideline is around 30 minutes to an hour."
     },
     {
         id: 4,
         question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
+        answer: "Yes, warming up before workouts is essential. It prepares your body by increasing blood flow, flexibility, and range of motion, reducing the risk of injuries."
     },
     {
         id: 5,
         question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
+        answer: "It depends on your fitness goals. If you want to build muscle and strength, focus on strength training. For overall health, doing both cardio and strength training is beneficial."
     },
     {
         id: 6,
         question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
+        answer: "Yes, lifting weights for strength training is highly beneficial as it helps build muscle, increase bone density, improve overall strength, and enhance athletic performance."
     }
 ]
 
@@ -151,37 +151,36 @@ export const faqs = [
 export const testimonials = [
     {
         id: 1,
-        name: "Diana Ayi",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Student",
+        name: "Sarah",
+        quote: "Since joining the gym and consistently working out, I've seen incredible changes in my physique and energy levels",
+        job: "Marketing Executive",
         avatar: require("./images/avatar1.jpg")
     },
     {
         id: 2,
-        name: "Daniel Vinyo",
-        quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Software Egineer",
+        name: "Michael",
+        quote: "As a professional athlete, the gym has been instrumental in improving my performance and maintaining peak physical condition.", 
+        job: "Soccer Player",
         avatar: require("./images/avatar2.jpg")
     },
     {
         id: 3,
-        name: "Edem Quist",
-        quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "University Lecturer",
-        avatar: require("./images/avatar3.jpg")
-    },
-    {
-        id: 4,
-        name: "Grace Lavoe",
-        quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Talking Parrot",
+        name: "Lisa",
+        quote: "The gym has not only helped me lose weight but also boosted my confidence and provided a great social atmosphere",
+         job: "University Lecturer",
         avatar: require("./images/avatar4.jpg")
     },
     {
+        id: 4,
+        name: "Jake",
+        quote: "I've gained strength and transformed my body thanks to the gym's well-designed workout programs and supportive trainers",
+         job: "Personal Trainer",
+        avatar: require("./images/avatar3.jpg")
+    },
+    {
         id: 5,
-        name: "Nana Yaa Dankwa",
-        quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Pharmacist",
+        name: "Emily",
+        quote: "Regular gym sessions have greatly improved my mental health, reducing stress and anxiety while boosting my overall well-being.", job: "Pharmacist",
         avatar: require("./images/avatar5.jpg")
     }
 ]
@@ -199,19 +198,18 @@ export const plans = [
         desc: 'This package is perfect for beginners who need constant help',
         price: 29.99,
         features: [
-            { feature: 'First Feature', available: true },
-            { feature: 'Second Feature', available: true },
-            { feature: 'Third Feature', available: true },
-            { feature: 'Fourth Feature', available: true },
-            { feature: 'Fifth Feature', available: true },
-            { feature: 'Fifth Feature Plus', available: false },
-            { feature: 'Sixth Feature', available: false },
-            { feature: 'Seventh Feature', available: false },
-            { feature: 'Seventh Feature Plus', available: false },
+            { feature: 'Group Classes', available: true },
+            { feature: 'Personalized Training', available: true },
+            { feature: 'Cardio Equipment', available: true },
+            { feature: 'Weight Machines', available: true },
+            { feature: 'Sauna Access', available: true },
+            { feature: 'Nutrition Guidance', available: false },
+            { feature: 'Towel Service', available: false },
+            { feature: 'Locker Rental', available: false },
+            { feature: 'Monthly Progress Tracking', available: false },
             { feature: 'Eighth Feature', available: false },
-            { feature: 'Ninth Feature', available: false },
-            { feature: 'Tenth Feature', available: false },
-            { feature: 'Eleventh Feature', available: false }
+            { feature: 'Hydration Station', available: false },
+            { feature: 'Flexible Membership Options', available: false },
         ]
     },
     {
@@ -220,19 +218,18 @@ export const plans = [
         desc: 'This is the perfect package for beginners who know what their doing',
         price: 49.99,
         features: [
-            { feature: 'First Feature', available: true },
-            { feature: 'Second Feature', available: true },
-            { feature: 'Third Feature', available: true },
-            { feature: 'Fourth Feature', available: true },
-            { feature: 'Fifth Feature', available: true },
-            { feature: 'Fifth Feature Plus', available: true },
-            { feature: 'Sixth Feature', available: true },
-            { feature: 'Seventh Feature', available: true },
-            { feature: 'Seventh Feature Plus', available: true },
-            { feature: 'Eighth Feature', available: false },
-            { feature: 'Ninth Feature', available: false },
-            { feature: 'Tenth Feature', available: false },
-            { feature: 'Eleventh Feature', available: false }
+            { feature: 'VIP Training', available: true },
+            { feature: 'Unlimited Classes', available: true },
+            { feature: 'Private Sessions', available: true },
+            { feature: 'Advanced Equipment', available: true },
+            { feature: 'Sports Massage', available: true },
+            { feature: 'Body Composition Analysis', available: true },
+            { feature: 'Pool Access', available: true },
+            { feature: 'Exclusive Workshops', available: true },
+            { feature: 'Complimentary Supplements', available: true },
+            { feature: 'High-Intensity Interval Training', available: false },
+            { feature: 'Individualized Meal Plans', available: false },
+            { feature: 'Exclusive Events', available: false },
         ]
     },
     {
@@ -241,19 +238,18 @@ export const plans = [
         desc: 'This package is perfect for busy people who need home service',
         price: 89.99,
         features: [
-            { feature: 'First Feature', available: true },
-            { feature: 'Second Feature', available: true },
-            { feature: 'Third Feature', available: true },
-            { feature: 'Fourth Feature', available: true },
-            { feature: 'Fifth Feature', available: true },
-            { feature: 'Fifth Feature Plus', available: true },
-            { feature: 'Sixth Feature', available: true },
-            { feature: 'Seventh Feature', available: true },
-            { feature: 'Seventh Feature Plus', available: true },
-            { feature: 'Eighth Feature', available: true },
-            { feature: 'Ninth Feature', available: true },
-            { feature: 'Tenth Feature', available: true },
-            { feature: 'Eleventh Feature', available: true }
+            { feature: '24/7 Gym Access', available: true },
+            { feature: 'Personal Concierge', available: true },
+            { feature: 'Elite Trainer Selection', available: true },
+            { feature: 'State-of-the-Art Facilities', available: true },
+            { feature: 'Private Locker Room', available: true },
+            { feature: 'Cryotherapy Sessions', available: true },
+            { feature: 'Premium Sports Equipment', available: true },
+            { feature: 'Advanced Recovery Tools', available: true },
+            { feature: 'Unlimited Spa Access', available: true },
+            { feature: 'Exclusive Retreats', available: true },
+            { feature: 'Performance Testing', available: true },
+            { feature: 'Customized Fitness App', available: true },
         ]
     }
 ]
