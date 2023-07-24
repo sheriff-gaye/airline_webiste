@@ -12,21 +12,21 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gallery",
+        name: "Service",
         path: '/gallery'
     },
-    {
-        name: "Plans",
-        path: '/plans'
-    },
-    {
-        name: "Trainers",
-        path: '/trainers'
-    },
-    {
-        name: "Contact",
-        path: '/contact'
-    }
+    // {
+    //     name: "Plans",
+    //     path: '/plans'
+    // },
+    // {
+    //     name: "Trainers",
+    //     path: '/trainers'
+    // },
+    // {
+    //     name: "Contact",
+    //     path: '/contact'
+    // }
 ]
 
 

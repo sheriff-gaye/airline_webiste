@@ -25,6 +25,9 @@
     --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
     --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
     --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
+    --color-black:#0000;
+    --color-white:#ffff;
+    --color-btn:RGB(255, 165, 0);
 
     --container-width-lg: 80%;
     --container-width-md: 90%;
@@ -42,7 +45,7 @@ body {
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600) url('./images/bg_texture.png');
+    
 }
 
 .container{
@@ -73,11 +76,11 @@ img{
     width: 100%;
 }
 .btn{
-    color: var(--color-gray-100);
+    color: white;
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
-    background: var(--color-primary);
+    background: var(--color-btn);
     border-radius: 1.5rem;
     transition: var(--transition);
 }

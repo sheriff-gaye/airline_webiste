@@ -1,13 +1,14 @@
 nav{
     height: 5rem;
     width: 100vw;
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
     display: grid;
     place-items: center;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 99;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .nav_toggle-btn{
@@ -23,7 +24,8 @@ nav{
 }
 
 .logo{
-    width: 7rem;
+    width: 5rem;
+    height: 5rem;
     display: block;
 }
 .nav_links{
@@ -33,6 +35,7 @@ nav{
 }
 .nav_links a{
     transition:  var(--transition);
+    color: black;
 }
 
 .nav_links a:hover{
@@ -42,7 +45,7 @@ nav{
 .active-nav{
     position: relative;
 }
-.active-nav:after{
+/* .active-nav:after{
     content: "";
     display: block;
     width: 1.2rem;
@@ -52,7 +55,7 @@ nav{
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
     margin-top: 0.9rem;
-}
+} */
 
 
 @media screen and  (max-width:1024px){
