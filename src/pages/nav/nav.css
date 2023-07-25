@@ -2,6 +2,7 @@ nav{
     height: 5rem;
     width: 100vw;
     /* background: var(--color-primary); */
+    background: whitesmoke;
     display: grid;
     place-items: center;
     position: fixed;

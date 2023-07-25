@@ -110,9 +110,12 @@ section{
     align-items: center;
     gap: 1rem;
 }
+.section_head h2{
+    color: black;
+}
 
 .section_head span{
-    background: var(--color-gray-500);
+    background: var(--color-primary);
     padding:0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
@@ -120,18 +123,20 @@ section{
 }
 
 .card{
-    background: var(--color-gray-500);
+    background: white;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
     border: 2px solid transparent;
     text-align: center;
-    padding: 3rem 2rem;
-    border-radius:0 3rem 0 3rem; 
+    padding: 1.1rem;
+    border-radius:2rem; 
     transition: var(--transition);
 }
 
-.card:hover{
-    background:transparent;
-    border-color:var(--color-gray-400);
-    cursor:default;
+
+.card h4{
+    color: black;
+    margin-top: 1rem;
+    text-align: left;
 }
 
 .card span{
@@ -142,22 +147,25 @@ section{
     font-size: 1.5rem;
     display: grid;
     place-items: center;
-    padding: 0.8rem;
+    padding: 0.5rem;
     margin-bottom: 1.5rem;
     margin-inline: auto;
     border-radius:1rem;
     transition:var(--transition);
 }
 
-.card:hover span{
-    background: var(--color-secondary);
-    color: var(--color-gray-600);
-}
+
 .card small{
     margin-top:1rem;
     display:block;
     font-weight:300;
+    color: gray;
+    text-align: left;
 }
+.card img{
+    border-radius: 2rem;
+}
+
 
 .header{
     margin-top: 5rem;
@@ -187,6 +195,12 @@ section{
     margin: 0 auto;
     text-align: center;
     color: var(--color-gray-100);
+}
+.values_value small{
+    color: black;
+}
+.values_right p{
+    color: black;
 }
 
 .header_content p{

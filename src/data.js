@@ -39,30 +39,34 @@ export const programs = [
     {
         id: 1,
         icon: <SiOpenaigym />,
-        title: "Cardio Blast",
+        title: "Dubai",
         info: "Intense cardio workouts to boost endurance and torch calories.",
-        path: "/programs/111"
+        path: "/programs/111",
+        image:require("./images/dubai.jpg")
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        title: "Strength Fusion",
+        title: "China",
         info: "A dynamic blend of strength training exercises for muscle sculpting",
-        path: "/programs/222"
+        path: "/programs/222",
+        image:require("./images/china.jpg")
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        title: "Yoga Flow",
+        title: "Ghana",
         info: "Find balance, flexibility, and inner peace through mindful yoga practice",
-        path: "/programs/333"
+        path: "/programs/333",
+        image:require("./images/ghana.jpg")
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        title: "HIIT Ignite",
+        title: "Japan",
         info: "High-intensity interval training to maximize fat burn and overall fitness",
-        path: "/programs/444"
+        path: "/programs/444",
+        image:require("./images/japan.jpg")
     }
 ]
 
@@ -77,26 +81,26 @@ export const values = [
     {
         id: 1,
         icon: <SiOpenaigym />,
-        title: "Fun Energize",
-        desc: "Infusing energy and enjoyment into workouts to make fitness a fun and fulfilling experience."
+        title: "World Class Service",
+        desc: "World Class Service: Experience luxury and personalized attention with our world-class service onboard and on the ground."
     },
     {
         id: 2,
         icon: <SiOpenaigym />,
-        title: "Balance Wellness",
-        desc: "Promoting a holistic approach to fitness that encompasses physical, mental, and emotional well-being."
+        title: "Best Price",
+        desc: "Customer Satisfaction: Your happiness is our priority. We ensure exceptional customer satisfaction with every flight."
     },
     {
         id: 3,
         icon: <SiOpenaigym />,
-        title: "Integrity Trust",
-        desc: "Building trust through honest and transparent practices and maintaining the highest level of integrity."
+        title: "Five Star Hotels",
+        desc: "Cheap Price: Fly affordably without compromising on quality. Enjoy great deals and discounted fares with us."
     },
     {
         id: 4,
         icon: <SiOpenaigym />,
-        title: "Passion Drive",
-        desc: "Fueling dedication and enthusiasm for fitness and personal growth."
+        title: "Customer Satisfaction",
+        desc: "Five-Star Hotels: Indulge in opulence with our partnerships with top-notch five-star hotels at your destination."
     }
 ]
 
