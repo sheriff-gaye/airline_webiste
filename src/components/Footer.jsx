@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/logo.png";
+import Logo from "../images/logo.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -13,7 +13,7 @@ const Footer = () => {
         <article>
           <Link>
             {" "}
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt="logo" height={80}/>
           </Link>
 
           <p>

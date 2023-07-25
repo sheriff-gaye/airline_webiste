@@ -42,7 +42,7 @@ export const programs = [
         title: "Dubai",
         info: "Intense cardio workouts to boost endurance and torch calories.",
         path: "/programs/111",
-        image:require("./images/dubai.jpg")
+        image: require("./images/dubai.jpg")
     },
     {
         id: 2,
@@ -50,7 +50,7 @@ export const programs = [
         title: "China",
         info: "A dynamic blend of strength training exercises for muscle sculpting",
         path: "/programs/222",
-        image:require("./images/china.jpg")
+        image: require("./images/china.jpg")
     },
     {
         id: 3,
@@ -58,7 +58,7 @@ export const programs = [
         title: "Ghana",
         info: "Find balance, flexibility, and inner peace through mindful yoga practice",
         path: "/programs/333",
-        image:require("./images/ghana.jpg")
+        image: require("./images/ghana.jpg")
     },
     {
         id: 4,
@@ -66,7 +66,7 @@ export const programs = [
         title: "Japan",
         info: "High-intensity interval training to maximize fat burn and overall fitness",
         path: "/programs/444",
-        image:require("./images/japan.jpg")
+        image: require("./images/japan.jpg")
     }
 ]
 
@@ -115,33 +115,33 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "How often should I exercise?",
-        answer: "It is recommended to engage in moderate-intensity aerobic activity for at least 150 minutes per week, or vigorous-intensity activity for 75 minutes per week, along with muscle-strengthening exercises twice a week."
+        question: " What is the baggage allowance for my flight ?",
+        answer: "Baggage allowance varies by fare type. Check our website for specific details."
     },
     {
         id: 2,
-        question: "What time of day is best to work out?",
-        answer: "The best time of day to work out depends on individual preferences and schedules. Choose a time that aligns with your energy levels and allows for consistency."
+        question: "Can I change my flight date after booking ?",
+        answer: "Yes, flight date changes are permitted. Fees may apply. Contact our customer service for assistance."
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
-        answer: "The duration of your workouts depends on your fitness goals and individual preferences, but a general guideline is around 30 minutes to an hour."
+        question: "Are meals provided during the flight ? ",
+        answer: "Complimentary meals are served on international flights. Snacks available on shorter routes."
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
-        answer: "Yes, warming up before workouts is essential. It prepares your body by increasing blood flow, flexibility, and range of motion, reducing the risk of injuries."
+        question: "How early should I arrive at the airport for check-in ?",
+        answer: "We recommend arriving 2 hours before departure for domestic flights and 3 hours for international."
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "It depends on your fitness goals. If you want to build muscle and strength, focus on strength training. For overall health, doing both cardio and strength training is beneficial."
+        question: "Can I request a special meal due to dietary restrictions?",
+        answer: "Yes, we accommodate special meal requests. Inform us during booking or contact customer service."
     },
     {
         id: 6,
-        question: "Should I lift weights for strength training?",
-        answer: "Yes, lifting weights for strength training is highly beneficial as it helps build muscle, increase bone density, improve overall strength, and enhance athletic performance."
+        question: "What are the available payment options for booking ?",
+        answer: "We accept major credit/debit cards and online payment methods. Secure your booking hassle-free."
     }
 ]
 
@@ -163,7 +163,7 @@ export const testimonials = [
     {
         id: 2,
         name: "Michael",
-        quote: "As a professional athlete, the gym has been instrumental in improving my performance and maintaining peak physical condition.", 
+        quote: "As a professional athlete, the gym has been instrumental in improving my performance and maintaining peak physical condition.",
         job: "Soccer Player",
         avatar: require("./images/avatar2.jpg")
     },
@@ -171,14 +171,14 @@ export const testimonials = [
         id: 3,
         name: "Lisa",
         quote: "The gym has not only helped me lose weight but also boosted my confidence and provided a great social atmosphere",
-         job: "University Lecturer",
+        job: "University Lecturer",
         avatar: require("./images/avatar4.jpg")
     },
     {
         id: 4,
         name: "Jake",
         quote: "I've gained strength and transformed my body thanks to the gym's well-designed workout programs and supportive trainers",
-         job: "Personal Trainer",
+        job: "Personal Trainer",
         avatar: require("./images/avatar3.jpg")
     },
     {

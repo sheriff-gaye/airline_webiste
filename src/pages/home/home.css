@@ -126,7 +126,7 @@
     align-items: flex-start;
 }
 .faq{
-    background: var(--color-gray-500);
+    background: #e6a015;
     padding: 2rem;
     border-radius: 1rem;
     cursor: pointer;
@@ -145,10 +145,8 @@
 
 .faq p{
     margin-top: 1.5rem;
+    color: white;
 }
-
-
-
 
 
 .testimonials{
@@ -165,6 +163,7 @@
     position: relative;
     text-align: center;
     margin-top: 5rem;
+    background:var(--color-primary);
 }
 .testimonial_avatar{
     width: 4rem;
@@ -186,9 +185,11 @@
 .testimonial_quote{
     font-style: italic;
     margin: 1rem 0 2rem;
+    color: white;
 }
 .card small .testimonial_title{
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
+    color: white;
 }
 
 .testimonail_btn-container{
@@ -198,6 +199,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+   
 
 }
 
@@ -211,6 +213,7 @@
     width: 3rem;
     height: 3rem;
 }
+
 
 
 
