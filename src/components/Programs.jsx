@@ -25,7 +25,7 @@ const Programs = () => {
                             <small>{info}</small>
                            
                             {/* <Link to={path} className="btn sm">Learn More  <AiFillCaretRight/></Link> */}
-                            <h4>Price per season <strike>$300</strike> $200  </h4>
+                            <h4>Price per season $300  </h4>
                             </Card>
                             
                         )

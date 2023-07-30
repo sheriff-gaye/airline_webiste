@@ -293,10 +293,7 @@ footer{
     .main_header-container{
         gap: 0;
     }
-    .main_header-circle{
-        width: 16rem;
-        height: 16rem;
-    }
+   
     .programs_wrapper{
         grid-template-columns: 1fr 1fr;
     }
@@ -337,6 +334,7 @@ footer{
     }
     .main_header-container{
         grid-template-columns: 1fr ;
+        gap: 2rem;
     }
     .programs_wrapper{
         grid-template-columns: 1fr;

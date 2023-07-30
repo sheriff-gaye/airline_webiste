@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import { Link } from "react-router-dom";
 import land from "../images/land.jpg";
 
 const Mainheader = () => {
@@ -22,9 +21,9 @@ const Mainheader = () => {
             the wonders of the world. Embark on a seamless journey, and let the
             skies lead you to new horizons.
           </p>
-          <Link to="/plans" className="btn lg">
+          <a href="#explore" className="btn lg">
             Get Started
-          </Link>
+          </a>
         </div>
 
         <div className="main_header-right">
