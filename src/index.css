@@ -222,6 +222,9 @@ section{
     .header_content{
         width: 76%;
     }
+    .nav_container div .login{
+        display: none;
+    }
 
 
 
@@ -246,6 +249,9 @@ section{
     section{
         margin-top: 7rem;
     }
+ 
+
+
 
 
 

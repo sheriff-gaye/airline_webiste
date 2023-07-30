@@ -336,6 +336,9 @@ footer{
         grid-template-columns: 1fr ;
         gap: 2rem;
     }
+    section.programs{
+        margin-top: 3rem;
+    }
     .programs_wrapper{
         grid-template-columns: 1fr;
         gap: 2rem;
