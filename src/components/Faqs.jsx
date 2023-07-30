@@ -7,7 +7,7 @@ import Faq from "./Faq";
 
 const Faqs = () => {
     return (
-        <section className="faqs">
+        <section className="faqs" id="faqs">
             <div className="container faqs_container">
                 <SectionHead icon={<FaQuestion />} title="FAQS" />
                 <div className="faqs_wrapper">

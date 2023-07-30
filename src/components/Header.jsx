@@ -3,7 +3,7 @@ import React from "react";
 
 const Header=({title,image,children})=>{
     return(
-        <header className="header">
+        <header className="header" id="header">
             <div className="container header_container">
                 <div className="header_container-bg">
                     <img src={image} alt="header_image"/>

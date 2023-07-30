@@ -2,15 +2,13 @@ import { FaCrown } from "react-icons/fa"
 import SectionHead from "./SectionHead";
 import {programs} from "../data.js";
 import Card from "../UI/card";
-import { Link } from "react-router-dom";
-import {AiFillCaretRight} from "react-icons/ai"
 import { ImLocation } from "react-icons/im";
 
 
 const Programs = () => {
 
     return (
-        <section className="programs">
+        <section className="programs" id="explore">
             <div className="container programs_container">
                 <SectionHead icon={<FaCrown />} title="Top Destinations" />
            

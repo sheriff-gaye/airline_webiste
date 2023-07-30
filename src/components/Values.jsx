@@ -7,7 +7,7 @@ import Card from "../UI/card";
 
 const Values = () => {
   return (
-    <section className="values">
+    <section className="values" id="about">
       <div className="container values_container">
         <div className="values_left">
           <img src={Image} alt="values_image" />

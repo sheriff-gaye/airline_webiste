@@ -39,14 +39,14 @@
     place-items: center;
     position: relative;
 }
-.main_header-circle{
+/* .main_header-circle{
     width: 25rem;
     height: 25rem;
     background: linear-gradient(75deg,var(--color-secondary),transparent);
     border-radius: 50%;
     position: absolute;
     transition: var(--transition);
-}
+} */
 .main_header-image{
     position: relative;
 }
@@ -183,11 +183,11 @@
 }
 
 .testimonial_quote{
-    font-style: italic;
-    margin: 1rem 0 2rem;
+   
+    margin: 1.3rem 0 2rem;
     color: white;
 }
-.card small .testimonial_title{
+.card  .testimonial_title{
     margin-top: 0.5rem;
     color: white;
 }
@@ -220,7 +220,7 @@
 
 
 footer{
-    background: var(--color-primary);
+    background: rgb(97, 93, 93);
     margin-top: 7rem;
     padding-top: 7rem;
     font-size: 0.9rem;
@@ -277,7 +277,7 @@ footer{
     color: var(--color-gray-100);
     text-align: center;
     padding: 1.5rem 0;
-    border-top: 2px solid var(--color-primary-variant);
+    border-top: 2px solid white;
     margin-top: 5rem;
 }
 

@@ -8,25 +8,18 @@ export const links = [
         path: '/'
     },
     {
-        name: "About",
-        path: '/about'
+        name: "Explore",
+        path: '#explore'
     },
     {
-        name: "Service",
-        path: '/gallery'
+        name: "About",
+        path: '#about'
     },
-    // {
-    //     name: "Plans",
-    //     path: '/plans'
-    // },
-    // {
-    //     name: "Trainers",
-    //     path: '/trainers'
-    // },
-    // {
-    //     name: "Contact",
-    //     path: '/contact'
-    // }
+    {
+        name: "Faqs",
+        path: '#faqs'
+    },
+   
 ]
 
 
@@ -156,35 +149,35 @@ export const testimonials = [
     {
         id: 1,
         name: "Sarah",
-        quote: "Since joining the gym and consistently working out, I've seen incredible changes in my physique and energy levels",
+        quote:"Sunny Travels made my dream vacation a reality! Their excellent service, smooth booking process, and affordable fares exceeded my expectations." ,
         job: "Marketing Executive",
         avatar: require("./images/avatar1.jpg")
     },
     {
         id: 2,
         name: "Michael",
-        quote: "As a professional athlete, the gym has been instrumental in improving my performance and maintaining peak physical condition.",
+        quote: "I've flown with Sunny Travels multiple times, and they never disappoint. Their customer service is top-notch, and the flights are always on time.",
         job: "Soccer Player",
         avatar: require("./images/avatar2.jpg")
     },
     {
         id: 3,
         name: "Lisa",
-        quote: "The gym has not only helped me lose weight but also boosted my confidence and provided a great social atmosphere",
+        quote: "Booking with Sunny Travels was a breeze! The website is user-friendly, and their five-star hotel partnerships made my trip extra special.",
         job: "University Lecturer",
         avatar: require("./images/avatar4.jpg")
     },
     {
         id: 4,
         name: "Jake",
-        quote: "I've gained strength and transformed my body thanks to the gym's well-designed workout programs and supportive trainers",
+        quote: "I highly recommend Sunny Travels for their exceptional customer satisfaction. They truly go above and beyond to ensure a pleasant flying experience." ,
         job: "Personal Trainer",
         avatar: require("./images/avatar3.jpg")
     },
     {
         id: 5,
         name: "Emily",
-        quote: "Regular gym sessions have greatly improved my mental health, reducing stress and anxiety while boosting my overall well-being.", job: "Pharmacist",
+        quote: "Sunny Travels offered the best prices for my travel plans. I got great value for my money without compromising on comfort.", job: "Pharmacist",
         avatar: require("./images/avatar5.jpg")
     }
 ]

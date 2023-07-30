@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/logo.jpg";
+import Logo from "../images/clear_top.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -8,14 +8,13 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer> 
       <div className="container footer_container">
         <article>
           <Link>
             {" "}
-            <img src={Logo} alt="logo" height={80}/>
+            <img src={Logo} alt="logo" height={80} />
           </Link>
-
           <p>
             GetFit is your ultimate fitness companion, providing comprehensive
             workout plans, expert guidance, and a supportive community. Achieve

@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../images/logo.jpg";
-import { Link, NavLink } from "react-router-dom";
+import Logo from "../images/clear_top.png";
+import { Link } from "react-router-dom";
 import { links } from "../data.js";
 import { GoThreeBars } from "react-icons/go";
 import { MdOutlineClose } from "react-icons/md";
@@ -22,14 +22,14 @@ const Navbar = () => {
         <ul className={`nav_links ${isNavShowing ? "show_nav" : "hide_nav"}`}>
           {links.map(({ name, path }, index) => {
             return (
-              <li key={index}>
-                <NavLink
-                  to={path}
+              <li key={index} id={name}>
+                <a
+                  href={path}
                   className={({ isActive }) => (isActive ? "active-nav" : "")}
                   onClick={() => SetisNavShowing((prev) => !prev)}
                 >
                   {name}
-                </NavLink>
+                </a>
               </li>
             );
           })}
